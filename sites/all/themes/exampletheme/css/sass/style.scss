@@ -1,0 +1,403 @@
+/*========Font Awesome Import==========*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+/*========Beginning of Global=========*/
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.container{
+
+	.navbar-header,
+	.navbar-collapse{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
+
+.ex-container-full{
+	width: 100%;
+}
+
+.ex-container-nopadding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*========End of Global=========*/
+
+/*========Beginning of Navbar==========*/
+
+.ex-navbar{
+	background-color: #5a5a5a;
+	color: #fff;
+	border-radius: 0px;
+	border: none;
+  margin-bottom: 0px;
+
+	a{
+		font-size: 18px;
+    text-align: center;
+	}
+
+	.navbar-toggle{
+		margin-top: 25px;
+    bottom: 10px;
+    background-color: #5bc0de;
+    border: none;
+    outline: none;
+	}
+}
+
+.navbar-inverse{ 
+  
+  .navbar-nav>li>a{
+	 color: #fff;
+   height: 66px;
+   padding-top: 24px;
+  }
+
+  .navbar-nav>li>a:hover{
+  	color: #000;
+  }
+
+  .navbar-nav>li>a.active:hover{
+  	color: #5a5a5a;
+  }
+
+  .navbar-nav>.active>a, 
+  .navbar-nav>.active>a:hover, 
+  .navbar-nav>.active>a:focus {
+    background-color: #5bc0de;
+  }
+
+  .navbar-toggle:hover, 
+  .navbar-toggle:focus{
+    background-color: #fff;
+
+    span{
+      background-color: #5a5a5a;
+    }
+  }
+}
+
+#block-search-form{
+	width: 300px;
+	float: right !important;
+
+  button{
+    border-radius: 25px;
+    border: none;
+    width: 35px;
+    float: right;
+    background-color: #5bc0de;
+    outline: none;
+
+    i{
+      right: 2px;
+      top: 2px;
+      color: #fff;
+    }
+
+    i:hover,
+    i:focus{
+      color: #5a5a5a; 
+    }
+  }
+
+	button.btn-default{
+		top: 10px;
+
+    @media (max-width: 767px){
+      top: 0px;
+    }
+	}
+
+  input{
+    display: none;
+  }
+}
+
+/*========End of Navbar==========*/
+
+/*========beginning contact page==========*/
+
+#webform-client-form-4 label{
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#webform-client-form-4 button{
+  font-size: 16px;
+  font-weight: 500;
+  border-color: #000;
+  margin-top: 10px;
+  background-color: #5a5a5a;
+  width: 150px;
+}
+
+#webform-client-form-4 button:hover,
+#webform-client-form-4 button:focus{
+  background-color: #5bc0de;
+  border-color: #000;
+}
+
+#webform-client-form-4 input{
+  outline: none;
+}
+
+#webform-client-form-4 input.email{
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.page-node-4 .contact-us-info p{
+  font-size: 21px;
+  font-weight: 100;
+}
+
+.page-node-4 .contact-us-info{
+  margin-bottom: 10px;
+}
+
+.contact-page-contact-info{
+  margin-top: 20px;
+
+  div{
+    div{
+      font-size: 25px;
+      font-weight: 100;
+    }
+  }
+}
+
+/*========end contact page==========*/
+
+/*========Beginning of staff profile=========*/
+.animate {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-doctors {
+  text-align: center;
+  padding: 70px 0 80px;
+  background: #f0f5f6;
+}
+
+.home-doctors h2 {
+    font-weight: normal;
+}
+
+.home-doctors .common-doctor {
+  background-color: #fff;
+}
+.home-doctors .common-doctor figure {
+  overflow: hidden;
+  width: 100%;
+  height: 196px;
+}
+
+.home-doctors img {
+  width: 100%;
+  height: auto;
+}
+
+.home-doctors .common-doctor h5 {
+  margin: 0 0 7px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3a3c41;
+}
+.home-doctors .common-doctor .for-border {
+  margin-bottom: 20px;
+}
+.home-doctors .common-doctor .text-content {
+  padding: 19px 14px 13px;
+}
+.home-doctors.doctors-var-two {
+  text-align: left;
+  background-color: #fff;
+}
+.home-doctors.doctors-var-two .slogan-section {
+  text-align: left;
+}
+.home-doctors.doctors-var-two .common-doctor {
+  background-color: transparent;
+}
+.home-doctors.doctors-var-two .common-doctor .for-border {
+  display: none;
+}
+.home-doctors.doctors-var-two .common-doctor .text-content {
+  padding: 20px 0 20px;
+}
+.home-doctors.doctors-var-two .text-center {
+  text-align: left;
+}
+
+.slogan-section {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.home-doctors .common-doctor .for-border {
+  margin-bottom: 20px;
+}
+
+.for-border {
+  height: 11px;
+  width: 100%;
+  background: transparent url(http://omarhabash.com/nova/wp-content/uploads/2014/08/feature-border.png) center center no-repeat;
+  border: none;
+}
+
+.home-doctors .common-doctor h5 small {
+  color: #008fd5;
+  font-weight: bold;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.home-doctors .common-doctor ul{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -28px;
+  text-align: center;
+  margin-top: 10em;
+  opacity: 0;
+  z-index: 1;
+}
+
+.home-doctors .common-doctor li a {
+  background: #008fd5;
+  color: white;
+  padding: 0.75em;
+  border: 5px solid rgba(255, 255, 255, 0.33);
+}
+
+
+.doc-img{
+   /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1, 1); // This is the scale for the normal size of the image.
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+ 
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1, 1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+ 
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1, 1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+}
+
+.doc-item:hover .doc-img{
+   /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1.2, 1.2); // This is the enlarged size scale of the image.
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+ 
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1.2, 1.2);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+ 
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1.20, 1.20);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+
+  opacity: 0.7;
+}
+
+.doc-item:hover .social-lists{
+  margin-top: -2em;
+  opacity: 1;
+}
+
+.social-lists{ 
+  .fa{
+    display: inherit;
+  }
+
+  .fa:hover{
+    color: #5a5a5a;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+}
+
+/*========end staff profile==========*/
+
+/*===========Beginning of Footer============*/
+.footer{
+	background-color: #5a5a5a;
+	min-height: 300px;
+
+	.footer-middle,
+	.footer-right,
+	.footer-left{
+		background-color: #5bc0de;
+		min-height: 225px;
+	}
+
+  .nav>li>a:hover, 
+  .nav>li>a:focus,
+  a:hover,
+  a:focus{
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .glyphicon-upload{
+    font-size: 3em;
+    top: 2em;
+  }
+
+  a{
+      color: #fff;
+  }
+
+  a:hover,
+  a:focus{
+    color: #5a5a5a;
+  }
+
+  ul{
+      @media (max-width: 767px) {
+        width: 50px;  
+    }
+  }
+
+  .navbar-nav{
+    margin: 0px;
+  }
+
+  div.footer-middle:empty{
+    background-color: #5a5a5a;
+  }
+}
+/*============End of Footer============*/ 
