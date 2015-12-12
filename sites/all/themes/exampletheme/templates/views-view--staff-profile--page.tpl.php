@@ -32,6 +32,16 @@
     <div class="container bootstrap snippet">
         <div class="row">
 			<?php
+                $last_value = end((array_keys($view->result)));
+                // $last_value = $view->total_rows;  // gives us a total number of items
+                if($last_value == 0){
+                    $column_structure = "col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1";
+                }elseif($last_value == 1){
+                    $column_structure = "col-lg-6 col-md-6 col-sm-6 col-xs-8 col-xs-offset-2";
+                }elseif($last_value >= 1){
+                    $column_structure = "col-lg-3 col-md-3 col-sm-6 col-xs-8 col-xs-offset-2";
+                }
+
 			  foreach ($view->result as $staff):
 				$staff_img = file_create_url($staff->field_field_photo[0]['raw']['uri']);
 			    $staff_name = $staff->field_field_name[0]['raw']['value'];
@@ -51,34 +61,30 @@
             </div>
             <div class="row">
                 <!-- entry1 -->
-                <div class="col-lg-3 col-md-3 col-sm-6 text-center doc-item">
+                <div class="<?php echo $column_structure; ?> block-center text-center doc-item">
                     <div class=
                     "common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
                     <ul class="list-inline social-lists animate">
                             <li>
-                                <a href="<?php echo $staff_skype;?>"><i class="fa fa-skype"></i></a>
+                                <a href="<?php echo $staff_skype; ?>"><i class="fa fa-skype"></i></a>
                             </li>
                             <li>
-                                <a href="<?php echo $staff_email;?>"><i class="fa fa-envelope"></i></a>
+                                <a href="<?php echo $staff_email; ?>"><i class="fa fa-envelope"></i></a>
                             </li>
                             <li>
-                                <a href="<?php echo $staff_twitter;?>"><i class="fa fa-twitter"></i></a>
+                                <a href="<?php echo $staff_twitter; ?>"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="<?php echo $staff_facebook;?>"><i class="fa fa-facebook"></i></a>
+                                <a href="<?php echo $staff_facebook; ?>"><i class="fa fa-facebook"></i></a>
                             </li>
                         </ul>
                         <figure>
-                            <img alt="doctor-2" class=
-                            "doc-img animate attachment-gallery-post-single wp-post-image"
-                            height="500" src=
-                            "<?php echo $staff_img;?>"
-                            width="670">
+                            <img alt="doctor-2" class="doc-img animate attachment-gallery-post-single wp-post-image" src="<?php echo $staff_img; ?>">
                         </figure>
                         <div class="text-content">
-                            <h5><?php echo $staff_name;?></h5>
+                            <h5><?php echo $staff_name; ?></h5>
                             <!-- <div class="for-border"></div> -->
-                            <h5><small><?php echo $staff_position;?></small></h5>
+                            <h5><small><?php echo $staff_position; ?></small></h5>
                         </div>
                     </div>
                 </div>

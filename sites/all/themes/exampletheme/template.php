@@ -57,7 +57,7 @@ function exampletheme_form_alter(array &$form, array &$form_state = array(), $fo
  */
 function exampletheme_theme_registry_alter(&$theme_registry) {
     // Defined path to the current module.
-    $module_path = drupal_get_path('theme', 'jigsawtheme');
+    $module_path = drupal_get_path('theme', 'exampletheme');
     // Find all .tpl.php files in this module's folder recursively.
     $template_file_objects = drupal_find_theme_templates($theme_registry, '.tpl.php', $module_path);
     // Iterate through all found template file objects.
