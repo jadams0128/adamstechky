@@ -27,7 +27,6 @@
  * @ingroup views_templates
  */
 ?>
-<?php dsm($view); ?>
 
 <div class="social-media-links">
 	<h2><?php echo $view->result[0]->_field_data['nid']['entity']->title ?></h2>
