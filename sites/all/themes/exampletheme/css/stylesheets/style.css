@@ -222,7 +222,7 @@ body, h1, h2, h3, h4, h5, h6, p, span {
 .home-doctors {
   text-align: center;
   padding: 70px 0 80px;
-  background: #f0f5f6;
+  background: #5a5a5a;
 }
 
 /* line 221, ../sass/style.scss */
@@ -277,38 +277,51 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   text-align: left;
 }
 
-/* line 258, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
+.slogan-section h2 {
+  color: #fff;
+}
+/* line 262, ../sass/style.scss */
+.slogan-section span {
+  color: #fff;
+}
+/* line 265, ../sass/style.scss */
+.slogan-section p {
+  color: #fff;
+}
+
+/* line 269, ../sass/style.scss */
 .home-doctors.doctors-var-two .common-doctor {
   background-color: transparent;
 }
 
-/* line 261, ../sass/style.scss */
+/* line 272, ../sass/style.scss */
 .home-doctors.doctors-var-two .common-doctor .for-border {
   display: none;
 }
 
-/* line 264, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 .home-doctors.doctors-var-two .common-doctor .text-content {
   padding: 20px 0 20px;
 }
 
-/* line 267, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .home-doctors.doctors-var-two .text-center {
   text-align: left;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .slogan-section {
   margin-bottom: 50px;
   text-align: center;
 }
 
-/* line 276, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .home-doctors .common-doctor .for-border {
   margin-bottom: 20px;
 }
 
-/* line 280, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .for-border {
   height: 11px;
   width: 100%;
@@ -316,7 +329,7 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   border: none;
 }
 
-/* line 287, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 .home-doctors .common-doctor h5 small {
   color: #008fd5;
   font-weight: bold;
@@ -324,7 +337,7 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   font-style: italic;
 }
 
-/* line 294, ../sass/style.scss */
+/* line 305, ../sass/style.scss */
 .home-doctors .common-doctor ul {
   position: absolute;
   top: 50%;
@@ -337,7 +350,7 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   z-index: 1;
 }
 
-/* line 306, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 .home-doctors .common-doctor li a {
   background: #008fd5;
   color: white;
@@ -345,7 +358,7 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   border: 5px solid rgba(255, 255, 255, 0.33);
 }
 
-/* line 314, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 .doc-img {
   /* Webkit for Chrome and Safari */
   -webkit-transform: scale(1, 1);
@@ -361,7 +374,7 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   -ms-transition-timing-function: ease-out;
 }
 
-/* line 331, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .doc-item:hover .doc-img {
   /* Webkit for Chrome and Safari */
   -webkit-transform: scale(1.2, 1.2);
@@ -378,40 +391,48 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   opacity: 0.7;
 }
 
-/* line 350, ../sass/style.scss */
+/* line 361, ../sass/style.scss */
 .doc-item:hover .social-lists {
   margin-top: -2em;
   opacity: 1;
 }
 
-/* line 356, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 .social-lists .fa {
   display: inherit;
 }
-/* line 360, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .social-lists .fa:hover {
   color: #5a5a5a;
 }
-/* line 364, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .social-lists a:hover {
   text-decoration: none;
 }
 
 /*========end staff profile==========*/
 /*===========Beginning of Footer============*/
-/* line 372, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .footer {
   background-color: #5a5a5a;
   min-height: 300px;
+  padding-bottom: 0px;
 }
-/* line 376, ../sass/style.scss */
+/* line 388, ../sass/style.scss */
+.footer .footer-copy-right {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 8px;
+}
+/* line 394, ../sass/style.scss */
+.footer .center-footer,
 .footer .footer-middle,
-.footer .footer-right,
-.footer .footer-left {
+.footer .footer-left,
+.footer .footer-right {
   background-color: #5bc0de;
   min-height: 225px;
 }
-/* line 383, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 .footer .nav > li > a:hover,
 .footer .nav > li > a:focus,
 .footer a:hover,
@@ -419,33 +440,49 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   background-color: transparent;
   color: #fff;
 }
-/* line 391, ../sass/style.scss */
+/* line 410, ../sass/style.scss */
 .footer .glyphicon-upload {
   font-size: 3em;
-  top: 2em;
 }
-/* line 396, ../sass/style.scss */
+/* line 414, ../sass/style.scss */
 .footer a {
   color: #fff;
 }
-/* line 400, ../sass/style.scss */
+/* line 418, ../sass/style.scss */
 .footer a:hover,
 .footer a:focus {
   color: #5a5a5a;
 }
 @media (max-width: 767px) {
-  /* line 405, ../sass/style.scss */
+  /* line 423, ../sass/style.scss */
   .footer ul {
     width: 50px;
   }
 }
-/* line 411, ../sass/style.scss */
+/* line 429, ../sass/style.scss */
 .footer .navbar-nav {
   margin: 0px;
 }
-/* line 415, ../sass/style.scss */
-.footer div.footer-middle:empty {
-  background-color: #5a5a5a;
+/* line 435, ../sass/style.scss */
+.footer .footer-left a {
+  text-decoration: none;
+}
+/* line 440, ../sass/style.scss */
+.footer .footer-left div div {
+  color: #fff;
+  font-size: 22px;
+}
+/* line 449, ../sass/style.scss */
+.footer .footer-middle h2 {
+  margin: 0px;
+}
+/* line 457, ../sass/style.scss */
+.footer .footer-middle .facebook .fa,
+.footer .footer-middle .twitter .fa,
+.footer .footer-middle .linkedin .fa {
+  font-size: 3em;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 /*============End of Footer============*/

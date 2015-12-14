@@ -79,3 +79,11 @@ function exampletheme_preprocess_page (&$variables){
         $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type;
     }
 }
+
+function exampletheme_menu_alter(&$items) {
+  //condition to check the user
+  global $user;
+  if($user->id == null) { //can use $user->name as well
+    $items['user/password']['access callback'] = FALSE;
+  }
+}
