@@ -215,7 +215,7 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 .home-doctors {
   text-align: center;
   padding: 70px 0 80px;
-  background: #f0f5f6;
+  background: #5a5a5a;
 }
 
 .home-doctors h2 {
@@ -254,6 +254,17 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 }
 .home-doctors.doctors-var-two .slogan-section {
   text-align: left;
+}
+.slogan-section{
+  h2{
+    color: #fff;
+  }
+  span{
+    color: #fff;
+  }   
+  p{
+    color: #fff;
+  }
 }
 .home-doctors.doctors-var-two .common-doctor {
   background-color: transparent;
@@ -372,10 +383,18 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 .footer{
 	background-color: #5a5a5a;
 	min-height: 300px;
+  padding-bottom: 0px;
 
-	.footer-middle,
-	.footer-right,
-	.footer-left{
+  .footer-copy-right{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+  .center-footer,
+  .footer-middle,
+  .footer-left,
+  .footer-right{
 		background-color: #5bc0de;
 		min-height: 225px;
 	}
@@ -390,7 +409,6 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 
   .glyphicon-upload{
     font-size: 3em;
-    top: 2em;
   }
 
   a{
@@ -412,8 +430,36 @@ body,h1,h2,h3,h4,h5,h6,p,span{
     margin: 0px;
   }
 
-  div.footer-middle:empty{
-    background-color: #5a5a5a;
+  .footer-left{
+  
+    a{
+      text-decoration: none;
+    }
+
+    div{
+      div{
+        color: #fff;
+        font-size: 22px;
+      }
+    }
+  }
+
+  .footer-middle{
+
+    h2{
+      margin: 0px;
+    }
+
+    .facebook,
+    .twitter,
+    .linkedin{
+
+      .fa{
+        font-size: 3em;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    }
   }
 }
 /*============End of Footer============*/ 

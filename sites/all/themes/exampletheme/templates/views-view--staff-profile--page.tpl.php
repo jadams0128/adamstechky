@@ -50,11 +50,13 @@
 				$staff_facebook = $staff->field_field_facebook[0]['raw']['value'];
 			    $staff_twitter = $staff->field_field_twitter[0]['raw']['value'];
 				$staff_skype = $staff->field_field_skype[0]['raw']['value'];
+                $title = 'Meet our Computer Specialists';
+                $str = strtoupper($title);
 			?>
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class=
                     "slogan-section animated fadeInUp clearfix ae-animation-fadeInUp">
-                    <h2>Meet our <span>Computer Specialists</span></h2>
+                    <h2><span><?php echo $str; ?></span></h2>
                         <p>We are here to serve you with honesty and integrity.</p>
                     </div>
                 </div>
