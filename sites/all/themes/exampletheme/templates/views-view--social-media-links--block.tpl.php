@@ -43,7 +43,7 @@
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">			
 	    		<h3><?php echo $view->result[0]->field_field_linkedin[0]['raw']['title']; ?></h3>
 	    	</div>
-	        <div class="fa fa-twitter-square"></div>
+	        <div class="fa fa-linkedin-square"></div>
 	    </a>
 	</div>
     <div class="twitter pull-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -51,7 +51,7 @@
     		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
     			<h3><?php echo $view->result[0]->field_field_footer_twitter[0]['raw']['title']; ?></h3>
     		</div>
-	        <div class="fa fa-linkedin-square"></div>
+	        <div class="fa fa-twitter-square"></div>
 	    </a>
     </div>
 </div>
