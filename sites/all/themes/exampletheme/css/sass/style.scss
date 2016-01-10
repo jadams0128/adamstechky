@@ -39,7 +39,10 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 	background-color: #5a5a5a;
 	color: #fff;
 	border-radius: 0px;
-	border: none;
+	border-left: none;
+  border-right: none;
+  border-top: 2px solid #5bc0de;
+  border-bottom: 2px solid #5bc0de;
   margin-bottom: 0px;
 
 	a{
@@ -385,6 +388,11 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 	min-height: 300px;
   padding-bottom: 0px;
 
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+  }
+
   .footer-copy-right{
     color: #fff;
     font-size: 18px;
@@ -463,3 +471,42 @@ body,h1,h2,h3,h4,h5,h6,p,span{
   }
 }
 /*============End of Footer============*/ 
+
+/*============Front Page Carousel========*/
+#block-views-front-page-banner-block{
+  background-color: #5a5a5a;
+}
+
+.banner-btn{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.banner-btn:hover,
+.banner-btn:focus{
+  color: #5a5a5a;
+}
+
+#myCarousel{
+  
+  .carousel-control{
+    background-image: none;
+    width: 5%;
+  }
+
+  .carousel-inner{
+    min-height: 350px;
+    position: relative;
+    top: 50%;
+    transform: translateY(12%);
+
+    h1, h3{
+      color: #fff;
+    }
+  }
+}
+/*============End Front Page Carousel========*/

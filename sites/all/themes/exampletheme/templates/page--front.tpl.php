@@ -82,7 +82,7 @@
 
 <?php include_once (drupal_get_path('theme',$GLOBALS['theme']).'/templates/include/header.tpl.php'); ?>
 
-<div class="main-container container">
+<div class="ex-container-nopadding ex-container-full">
 
   <?php include_once (drupal_get_path('theme',$GLOBALS['theme']).'/templates/include/banner.tpl.php'); ?>
 
