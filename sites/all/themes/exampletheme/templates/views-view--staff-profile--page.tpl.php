@@ -29,17 +29,17 @@
 ?>
 
 <div class="home-doctors clearfix">
-    <div class="container bootstrap snippet">
+    <div class="bootstrap snippet ex-container-nopadding">
         <div class="row">
 			<?php
                 $last_value = end((array_keys($view->result)));
-                // $last_value = $view->total_rows;  // gives us a total number of items
+                
                 if($last_value == 0){
-                    $column_structure = "col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-offset-1";
+                    $column_structure = "col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1";
                 }elseif($last_value == 1){
-                    $column_structure = "col-lg-6 col-md-6 col-sm-6 col-xs-8 col-xs-offset-2";
+                    $column_structure = "col-sm-6 col-xs-8 col-xs-offset-2";
                 }elseif($last_value >= 1){
-                    $column_structure = "col-lg-3 col-md-3 col-sm-6 col-xs-8 col-xs-offset-2";
+                    $column_structure = "col-md-3 col-sm-6 col-xs-8 col-xs-offset-2";
                 }
 
 			  foreach ($view->result as $staff):
@@ -50,7 +50,7 @@
 				$staff_facebook = $staff->field_field_facebook[0]['raw']['value'];
 			    $staff_twitter = $staff->field_field_twitter[0]['raw']['value'];
 				$staff_skype = $staff->field_field_skype[0]['raw']['value'];
-                $title = 'Meet our Computer Specialists';
+                $title = 'Meet our Computer Specialist';
                 $str = strtoupper($title);
 			?>
                 <div class="col-lg-12 col-md-12 col-sm-12">

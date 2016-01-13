@@ -40,7 +40,8 @@ stylesheets[all][] = css/stylesheets/style.css
 ; ;; Scripts
 ; ;;;;;;;;;;;;;;;;;;;;;
 ;
-scripts[] = 'js/page.js' 
+scripts[] = 'js/page.js'
+scripts[] = 'js/google-map.js' 
 ; scripts[] = 'bootstrap/js/affix.js'
 ; scripts[] = 'bootstrap/js/alert.js'
 ; scripts[] = 'bootstrap/js/button.js'

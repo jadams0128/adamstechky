@@ -219,6 +219,8 @@ body,h1,h2,h3,h4,h5,h6,p,span{
   text-align: center;
   padding: 70px 0 80px;
   background: #5a5a5a;
+  margin-top: 46px;
+  border: 5px solid #5bc0de;
 }
 
 .home-doctors h2 {
@@ -231,7 +233,7 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 .home-doctors .common-doctor figure {
   overflow: hidden;
   width: 100%;
-  height: 196px;
+  height: 300px;
 }
 
 .home-doctors img {
@@ -469,6 +471,16 @@ body,h1,h2,h3,h4,h5,h6,p,span{
       }
     }
   }
+
+  .footer-right{
+    li a{
+      font-size: 18px;
+    }
+
+    li a:hover{
+      color: #5a5a5a;
+    }
+  }
 }
 /*============End of Footer============*/ 
 
@@ -479,7 +491,7 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 
 .banner-btn{
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 65px;
   background-color: #5bc0de;
   border-color: #5bc0de;
   border-radius: 25px;

@@ -74,8 +74,8 @@
  */
 ?>
 <?php include_once (drupal_get_path('theme',$GLOBALS['theme']).'/templates/include/header.tpl.php'); ?>
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ex-container-nopadding ex-container-full">
-    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="300" src="https://www.google.com/maps/embed/v1/place?q=105+sleepy+hollow+fisty+ky+41743&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU">
+<div id="gmap-holder" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ex-container-nopadding ex-container-full">
+    <iframe class="gmap" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="300" src="https://www.google.com/maps/embed/v1/place?q=105+sleepy+hollow+fisty+ky+41743&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU">
 		<div>
 			<small>
 				<a href="http://embedgooglemaps.com">embedgooglemaps.com</a>
