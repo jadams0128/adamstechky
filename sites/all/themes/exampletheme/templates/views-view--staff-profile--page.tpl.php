@@ -70,14 +70,15 @@
                             <li>
                                 <a href="<?php echo $staff_skype; ?>"><i class="fa fa-skype"></i></a>
                             </li>
-                            <li>
-                                <a href="<?php echo $staff_email; ?>"><i class="fa fa-envelope"></i></a>
-                            </li>
+                            
                             <li>
                                 <a href="<?php echo $staff_twitter; ?>"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li>
                                 <a href="<?php echo $staff_facebook; ?>"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="<?php echo $staff_email; ?>"><i class="fa fa-info"></i></a>
                             </li>
                         </ul>
                         <figure>
