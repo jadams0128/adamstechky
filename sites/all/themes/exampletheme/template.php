@@ -47,3 +47,7 @@ function exampletheme_preprocess_page (&$variables){
         $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type;
     }
 }
+
+function exampletheme_preprocess_html(&$vars) {
+  $vars['head_title'] = 'ADAMS TECHNOLOGY';
+}
