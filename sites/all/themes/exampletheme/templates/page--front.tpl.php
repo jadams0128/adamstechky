@@ -110,8 +110,6 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-      if (drupal_is_front_page()) 
-        
       <?php if(drupal_is_front_page()): ?>
         <hr>
         <div class="col-xs-12 text-center front-page-profile-view">
