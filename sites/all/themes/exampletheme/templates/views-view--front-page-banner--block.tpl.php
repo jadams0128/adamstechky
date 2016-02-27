@@ -28,7 +28,7 @@
 ?>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner" role="listbox" style="min-height: 322px;">
     <?php foreach($view->result as $index => $image): ?>
         <div class="item <?php if ($index == 0): ?>
           <?php echo "active"; ?>
@@ -41,12 +41,17 @@
               <img class="img-responsive" src="<?php echo file_create_url($image->field_field_banner_image_2[0]['raw']['uri']) ?>" alt="">
             </div>
           <?php else: ?>
-            <div class="col-sm-3 hidden-xs">
+            <div class="col-sm-3 col-xs-12">
               <img class="img-responsive" src="<?php echo file_create_url($image->field_field_banner_image[0]['raw']['uri']) ?>" alt="">
             </div>
           <?php endif; ?>
           <div class="col-sm-6 col-xs-12">
-            <h3><?php echo $image->field_body[0]['raw']['value'] ?></h3>
+            <div class="col-xs-12">
+              <h3><?php echo $image->field_body[0]['raw']['value'] ?></h3>
+            </div>
+            <div class="col-xs-12 text-center">
+              <a href="contact" class="btn banner-btn">Contact Us</a>
+            </div>
           </div>
           <div class="col-sm-3 hidden-xs">
             <img class="img-responsive" src="<?php echo file_create_url($image->field_field_banner_image[0]['raw']['uri']) ?>" alt="">
@@ -65,7 +70,5 @@
   </a>
 
 </div>
-<div class="col-xs-12 text-center">
-    <a href="contact" class="btn banner-btn">Contact Us</a>
-  </div> 
+ 
   
