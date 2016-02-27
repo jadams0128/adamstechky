@@ -91,29 +91,39 @@ body,h1,h2,h3,h4,h5,h6,p,span{
   }
 }
 
+.glyphicon-search{
+	font-family: 'Glyphicons Halflings' !important;
+}
+
 #block-search-form{
 	width: 300px;
 	float: right !important;
 
-  button{
-    border-radius: 25px;
-    border: none;
-    width: 35px;
-    float: right;
-    background-color: #5bc0de;
-    outline: none;
+	.input-group-btn {
+	    width: 1% !important;
+	    top: 10px;
+	}
 
-    i{
-      right: 2px;
-      top: 2px;
-      color: #fff;
-    }
+  	button{
+	    border-radius: 25px;
+	    border: none;
+	    width: 35px;
+	    float: right;
+	    background-color: #5bc0de;
+	    outline: none;
 
-    i:hover,
-    i:focus{
-      color: #5a5a5a; 
-    }
-  }
+	    span{
+	      right: 2px;
+	      top: 2px;
+	      color: #fff;
+		  font-family: 'Glyphicons Halflings' !important;
+	    }
+
+	    span:hover,
+	    span:focus{
+	      color: #5a5a5a; 
+	    }
+  	}
 
 	button.btn-default{
 		top: 10px;
