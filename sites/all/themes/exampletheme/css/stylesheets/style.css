@@ -506,41 +506,51 @@ body, h1, h2, h3, h4, h5, h6, p, span {
 /*============End of Footer============*/
 /*============Front Page Carousel========*/
 /* line 488, ../sass/style.scss */
-#block-views-front-page-banner-block {
-  background-color: #5a5a5a;
-}
-
-/* line 492, ../sass/style.scss */
 .banner-btn {
   margin-bottom: 20px;
-  margin-top: 65px;
   background-color: #5bc0de;
   border-color: #5bc0de;
   border-radius: 25px;
   color: #fff;
 }
 
-/* line 501, ../sass/style.scss */
+/* line 496, ../sass/style.scss */
 .banner-btn:hover,
 .banner-btn:focus {
   color: #5a5a5a;
 }
 
-/* line 508, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 #myCarousel .carousel-control {
   background-image: none;
   width: 5%;
 }
-/* line 513, ../sass/style.scss */
-#myCarousel .carousel-inner {
-  min-height: 350px;
-  position: relative;
-  top: 50%;
-  transform: translateY(12%);
-}
-/* line 519, ../sass/style.scss */
-#myCarousel .carousel-inner h1, #myCarousel .carousel-inner h3 {
-  color: #fff;
-}
 
 /*============End Front Page Carousel========*/
+/*============Site Profile Page========*/
+/* line 511, ../sass/style.scss */
+.site-profile .site-profile-header {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 515, ../sass/style.scss */
+.site-profile .site-profile-header h2 {
+  background-color: #5a5a5a;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  height: 50px;
+  padding-top: 10px;
+}
+/* line 525, ../sass/style.scss */
+.site-profile .site-profile-img {
+  border: 2px solid #5a5a5a;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 532, ../sass/style.scss */
+.site-profile .site-profile-info:hover h2 {
+  color: #5bc0de;
+}
+
+/*============End Site Profile Page========*/
