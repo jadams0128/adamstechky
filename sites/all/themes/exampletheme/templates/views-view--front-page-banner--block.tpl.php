@@ -37,7 +37,7 @@
             <h1><?php echo $image->_field_data['nid']['entity']->title ?></h1>
           </div>
           <div class="col-sm-3 col-xs-12">
-            <img class="img-responsive" src="<?php echo file_create_url($image->field_field_banner_image[0]['raw']['uri']) ?>" alt="">
+            <img class="img-responsive" src="<?php echo file_create_url($image->field_field_banner_image_2[0]['raw']['uri']) ?>" alt="">
           </div>
           <div class="col-sm-6 col-xs-12">
             <h3><?php echo $image->field_body[0]['raw']['value'] ?></h3>
