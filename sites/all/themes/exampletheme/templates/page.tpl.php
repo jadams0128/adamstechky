@@ -110,7 +110,16 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+      <hr>
+      <div class="col-xs-12 text-center">
+        <h2>Most Recent projects!!</h2>
+      </div>
+      
       <?php print render($page['content']); ?>
+
+      <div class="col-xs-12 text-center">
+        <a href="site-profiles" class="btn banner-btn">View More</a>
+      </div>
     </section>
 
     <?php include_once (drupal_get_path('theme',$GLOBALS['theme']).'/templates/include/sidebar_second.tpl.php'); ?>
