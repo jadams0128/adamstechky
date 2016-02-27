@@ -118,7 +118,7 @@
       <?php print render($page['content']); ?>
 
       <div class="col-xs-12 text-center">
-        <a href="site-profiles" class="btn banner-btn">View More</a>
+        <a href="site-profiles" class="btn banner-btn front-page-profile-btn">View More</a>
       </div>
     </section>
 

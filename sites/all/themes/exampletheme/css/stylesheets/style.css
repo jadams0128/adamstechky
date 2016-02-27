@@ -560,4 +560,9 @@ body, h1, h2, h3, h4, h5, h6, p, span {
   margin-top: 30px;
 }
 
+/* line 544, ../sass/style.scss */
+.front-page-profile-btn {
+  margin-top: 20px;
+}
+
 /*============End Front Page Profile View========*/
