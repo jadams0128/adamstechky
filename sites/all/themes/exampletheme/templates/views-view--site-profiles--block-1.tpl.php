@@ -27,30 +27,31 @@
  * @ingroup views_templates
  */
 ?>
-<div class='col-xs-12 site-profile'>
-	<?php 
+<div class="container">
+	<div class='col-xs-12 site-profile'>
+		<?php 
 
-		foreach ($view->result as $profile): 
+			foreach ($view->result as $profile): 
 
-		$site_image = file_create_url($profile->field_field_site_screen_shot[0]['raw']['uri']);
-		$site_title = $profile->field_field_site_link[0]['raw']['title'];
-		$site_link = $profile->field_field_site_link[0]['raw']['url'];
-	?>
-		<div class="col-sm-6 col-xs-12 site-profile-info">
-			<div class="col-xs-12 text-center site-profile-header">
-				<h2>
-					<?php echo $site_title ;?>
-				</h2>
+			$site_image = file_create_url($profile->field_field_site_screen_shot[0]['raw']['uri']);
+			$site_title = $profile->field_field_site_link[0]['raw']['title'];
+			$site_link = $profile->field_field_site_link[0]['raw']['url'];
+		?>
+			<div class="col-sm-6 col-xs-12 site-profile-info">
+				<div class="col-xs-12 text-center site-profile-header">
+					<h2>
+						<?php echo $site_title ;?>
+					</h2>
+				</div>
+				<div class="col-xs-12 site-profile-img">
+					<a href="<?php echo $site_link; ?>">
+						<img src="<?php echo $site_image; ?>" class="img-responsive">
+					</a>
+				</div>
 			</div>
-			<div class="col-xs-12 site-profile-img">
-				<a href="<?php echo $site_link; ?>">
-					<img src="<?php echo $site_image; ?>" class="img-responsive">
-				</a>
-			</div>
-		</div>
-	<?php endforeach; ?>
+		<?php endforeach; ?>
+	</div>
 </div>
-
 
 
 
