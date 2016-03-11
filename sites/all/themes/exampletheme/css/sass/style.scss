@@ -400,6 +400,14 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 	min-height: 300px;
   padding-bottom: 0px;
 
+  #block-menu-menu-site-map{
+    li {
+      float: left;
+      width: 150px;
+      margin: -5px;
+    }
+  }
+
   h2{
     text-align: center;
     text-transform: uppercase;
@@ -516,42 +524,8 @@ body,h1,h2,h3,h4,h5,h6,p,span{
 }
 /*============End Front Page Carousel========*/
 
-/*============Site Profile Page========*/
-.site-profile{
-  .site-profile-header{
-    padding-left: 0px;
-    padding-right: 0px;
 
-    h2{
-      background-color: #5a5a5a;
-      color: #fff;
-      margin-bottom: 0px;
-      margin-top: 30px;
-      height: 50px;
-      padding-top: 10px;
-    }
-  }
 
-  .site-profile-img{
-    border: 2px solid #5a5a5a;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 
-  .site-profile-info:hover{
-    h2{
-      color: #5bc0de;
-    }
-  }
-}
-/*============End Site Profile Page========*/
 
-/*============Front Page Profile View========*/
-.front-page-profile-view{
-  margin-top: 30px;
-}
 
-.front-page-profile-btn{
-  margin-top: 20px;
-}
-/*============End Front Page Profile View========*/
