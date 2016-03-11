@@ -112,16 +112,8 @@
       <?php endif; ?>
       <?php if(drupal_is_front_page()): ?>
         <hr>
-        <div class="col-xs-12 text-center front-page-profile-view">
-          <h2>Most Recent projects!!</h2>
-        </div>
       <?php endif; ?>
       <?php print render($page['content']); ?>
-      <?php if(drupal_is_front_page()): ?>
-        <div class="col-xs-12 text-center">
-          <a href="site-profiles" class="btn banner-btn front-page-profile-btn">View More</a>
-        </div>
-      <?php endif; ?>
     </section>
 
     <?php include_once (drupal_get_path('theme',$GLOBALS['theme']).'/templates/include/sidebar_second.tpl.php'); ?>
